@@ -1,25 +1,32 @@
 # Trapezoid of Excellence
 
-A fan-made, **Bart Torvik-powered, Ryan Hammer-inspired** college basketball efficiency-versus-tempo chart. Not affiliated with Bart Torvik or Ryan Hammer.
+A fan-made, Bart Torvik-powered, Ryan Hammer-inspired college basketball adjusted-tempo vs adjusted-efficiency plot (chart forthcoming). Not affiliated with either provider.
 
-## Step 1: Get data (Python, no pip dependencies)
+## Get ratings
 
-The source is https://barttorvik.com/2026_team_results.csv for the completed 2025-26 season. We chart adjusted tempo (adj_t) on X and adjusted efficiency margin (adj_em = AdjOE - AdjDE) on Y.
+Python 3.9+; no third-party Python dependencies. Run:
 
-Run: `python scripts/fetch_data.py --year 2026` (or `py` on Windows). This saves `data/teams.json` with a top-level `season`, `source`, `updated_at` and `teams` array. Each team has `name`, `conference`, `record`, `adj_t`, `adj_o`, `adj_d` and `adj_em`.
+```bash
+python scripts/fetch_data.py --year 2026
+python -m unittest discover -s tests -v
+```
 
-Test offline with: `python -m unittest discover -s tests -v`.
+This fetches a **March 17, 2026 historical snapshot** of Torvik's 2025–26 ratings, archived publicly at [llimllib/ncaa-bracket-randomizer](https://github.com/llimllib/ncaa-bracket-randomizer/blob/6a2868c5eefdfc94159a449d0318723aa4e8bbd8/2026_team_results.csv). It covers all 365 Division I teams. **It is not final-season data and is not a live feed.** The original https://barttorvik.com/2026_team_results.csv returns HTTP 403 from GitHub Actions, so the default source does *not* call that blocked endpoint.
 
-If you have a local CSV, run: `python scripts/fetch_data.py --year 2026 --input-csv path/to/file.csv`.
+The output is `data/teams.json`. Teams include `name`, `conference`, `record`, `adj_t`, `adj_o`, `adj_d`, and `adj_em = adj_o - adj_d`. The root JSON includes `source`, `source_as_of`, and `data_status` to make source freshness clear. `updated_at` is when the JSON was generated, not when Torvik originally published the ratings.
 
-## GitHub automatic updates
+To use another source in the future:
 
-Under **Actions → Refresh Torvik ratings → Run workflow**, choose a season end year. The workflow also attempts a daily refresh using 2026, committing `data/teams.json` if the source is accessible. When 2026-27 ratings exist, change the scheduled `DATA_YEAR` fallback in `.github/workflows/refresh-data.yml` from 2026 to 2027.
+```bash
+python scripts/fetch_data.py --year 2027 --source-url "https://example.com/verified-ratings.csv"
+```
 
-If GitHub Actions cannot push, enable **Settings → Actions → General → Workflow permissions → Read and write permissions** if allowed.
+It must have columns named `team`, `conf`, `adjoe`, `adjde`, and `adjt`. To process a downloaded local CSV use `--input-csv path/to/file.csv`.
 
-## Sources and attribution
+## GitHub Actions
 
-Ratings come from [Bart Torvik / T-Rank](https://barttorvik.com/), not KenPom, so they will differ from Ryan Hammer's published visuals. The concept is inspired by Ryan Hammer's Trapezoid of Excellence. The public CSV is not a guaranteed API; respect site terms and keep requests infrequent. On fetch errors the script refuses to replace the existing JSON.
+Run **Actions → Refresh Torvik ratings → Run workflow** to regenerate the JSON. Optionally set the year and a new CSV source URL. Scheduled daily updates are intentionally **disabled while we only have a historical snapshot**; re-enable them once an accessible live-source URL is verified.
 
-The interactive chart and Netlify site are next.
+## Attribution
+
+Ratings: [Bart Torvik / T-Rank](https://barttorvik.com/) (via linked public historical snapshot). Chart concept: Ryan Hammer's *Trapezoid of Excellence*. Torvik ratings are not KenPom ratings. Respect upstream data terms. The chart and Netlify deployment are the next project milestone.

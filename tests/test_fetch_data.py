@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from fetch_data import parse_ratings_csv  # noqa: E402
+from fetch_data import parse_ratings_csv, source_for_year  # noqa: E402
 
 
 EXAMPLE = """Rank,Team,Conf,Record,AdjOE,AdjDE,AdjT,Barthag
@@ -40,6 +40,15 @@ class TorvikParserTests(unittest.TestCase):
         csv_text = EXAMPLE + "3,Arizona,B12,29-5,120.0,94.0,70.3,0.97\n"
         with self.assertRaisesRegex(ValueError, "Duplicate team"):
             parse_ratings_csv(csv_text)
+
+    def test_snapshot_provenance(self):
+        url, date = source_for_year(2026)
+        self.assertIn("githubusercontent.com", url)
+        self.assertEqual(date, "2026-03-17")
+
+    def test_future_season_requires_new_source(self):
+        with self.assertRaisesRegex(ValueError, "No known publicly hosted"):
+            source_for_year(2027)
 
     def test_non_numeric_error(self):
         with self.assertRaisesRegex(ValueError, "Invalid AdjOE"):

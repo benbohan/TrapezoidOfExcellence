@@ -4,13 +4,15 @@ on:
   workflow_dispatch:
     inputs:
       year:
-        description: Season end year (2026 for 2025-26; 2027 for 2026-27)
+        description: Season end year (2026 snapshot available; newer years need source URL)
         required: true
         default: '2026'
         type: string
-  schedule:
-    # Once daily at 13:17 UTC. Change the year below when the new season begins.
-    - cron: '17 13 * * *'
+      source_url:
+        description: Optional URL for a verified newer CSV source
+        required: false
+        default: ''
+        type: string
 
 permissions:
   contents: write
@@ -30,7 +32,13 @@ jobs:
       - name: Download and process Torvik ratings
         env:
           DATA_YEAR: ${{ inputs.year || '2026' }}
-        run: python scripts/fetch_data.py --year "$DATA_YEAR"
+          CSV_SOURCE_URL: ${{ inputs.source_url || '' }}
+        run: |
+          if [ -n "$CSV_SOURCE_URL" ]; then
+            python scripts/fetch_data.py --year "$DATA_YEAR" --source-url "$CSV_SOURCE_URL"
+          else
+            python scripts/fetch_data.py --year "$DATA_YEAR"
+          fi
       - name: Commit refreshed JSON
         run: |
           git config user.name "github-actions[bot]"

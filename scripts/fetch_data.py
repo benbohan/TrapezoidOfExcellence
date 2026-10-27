@@ -15,7 +15,14 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "data" / "teams.json"
-SOURCE_URL = "https://barttorvik.com/{year}_team_results.csv"
+TORVIK_URL = "https://barttorvik.com/{year}_team_results.csv"
+# Public historical Torvik snapshot (March 17, 2026), hosted with permission to
+# access as a public GitHub repository file. NOT current or final-season ratings.
+SNAPSHOT_2026 = (
+    "https://raw.githubusercontent.com/llimllib/ncaa-bracket-randomizer/"
+    "6a2868c5eefdfc94159a449d0318723aa4e8bbd8/2026_team_results.csv"
+)
+SNAPSHOT_DATES = {2026: "2026-03-17"}
 
 
 def normalize_header(value: str) -> str:
@@ -87,8 +94,7 @@ def parse_ratings_csv(raw: str) -> list[dict]:
     return sorted(teams, key=lambda team: team["name"].casefold())
 
 
-def fetch_csv(year: int) -> str:
-    url = SOURCE_URL.format(year=year)
+def fetch_csv(url: str) -> str:
     request = Request(
         url,
         headers={
@@ -107,15 +113,36 @@ def fetch_csv(year: int) -> str:
         raise RuntimeError(f"Could not download {url}: {exc}") from exc
 
 
-def run(year: int, output: Path, input_csv: Path | None = None) -> int:
-    raw = input_csv.read_text(encoding="utf-8-sig") if input_csv else fetch_csv(year)
+def source_for_year(year: int, source_url: str | None = None) -> tuple[str, str | None]:
+    """Prefer an identified public snapshot; never claim it is a current feed."""
+    if source_url:
+        return source_url, None
+    if year == 2026:
+        return SNAPSHOT_2026, SNAPSHOT_DATES[2026]
+    raise ValueError(
+        f"No known publicly hosted ratings snapshot for {year}. "
+        "Pass --source-url to use a verified new CSV source."
+    )
+
+
+def run(
+    year: int,
+    output: Path,
+    input_csv: Path | None = None,
+    source_url: str | None = None,
+) -> int:
+    url, source_as_of = source_for_year(year, source_url) if input_csv is None else (str(input_csv), None)
+    raw = input_csv.read_text(encoding="utf-8-sig") if input_csv else fetch_csv(url)
     teams = parse_ratings_csv(raw)
     if input_csv is None and len(teams) < 300:
         raise ValueError(f"Expected at least 300 Division I teams, got {len(teams)}; refusing to overwrite output")
 
     payload = {
         "season": year,
-        "source": SOURCE_URL.format(year=year),
+        "source": url,
+        "source_provider": "Bart Torvik / T-Rank",
+        "source_as_of": source_as_of,
+        "data_status": "historical_snapshot" if source_as_of else "unverified_as_of",
         "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "teams": teams,
     }
@@ -136,11 +163,12 @@ def main() -> None:
     parser.add_argument("--year", type=int, default=2026, help="Ending season year (2026 = 2025-26)")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT, help="Path for chart-ready JSON")
     parser.add_argument("--input-csv", type=Path, help="Optional local CSV for offline testing")
+    parser.add_argument("--source-url", help="Optional verified alternative CSV URL (future seasons)")
     args = parser.parse_args()
     if not 2008 <= args.year <= 2100:
         parser.error("--year must be between 2008 and 2100")
     try:
-        run(args.year, args.output, args.input_csv)
+        run(args.year, args.output, args.input_csv, args.source_url)
     except (ValueError, RuntimeError, OSError, UnicodeError) as exc:
         parser.exit(1, f"Data update failed: {exc}\n")
 

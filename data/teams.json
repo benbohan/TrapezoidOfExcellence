@@ -1,0 +1,3295 @@
+{
+  "season": 2026,
+  "source": "https://raw.githubusercontent.com/llimllib/ncaa-bracket-randomizer/6a2868c5eefdfc94159a449d0318723aa4e8bbd8/2026_team_results.csv",
+  "source_provider": "Bart Torvik / T-Rank",
+  "source_as_of": "2026-03-17",
+  "data_status": "historical_snapshot",
+  "updated_at": "2026-10-27T20:30:00+00:00",
+  "teams": [
+    {
+      "name": "Abilene Christian",
+      "conference": "WAC",
+      "record": "14-19",
+      "adj_t": 67.44,
+      "adj_o": 99.85,
+      "adj_d": 107.02,
+      "adj_em": -7.18
+    },
+    {
+      "name": "Air Force",
+      "conference": "MWC",
+      "record": "3-29",
+      "adj_t": 66.31,
+      "adj_o": 95.9,
+      "adj_d": 114.02,
+      "adj_em": -18.12
+    },
+    {
+      "name": "Akron",
+      "conference": "MAC",
+      "record": "29-5",
+      "adj_t": 70.32,
+      "adj_o": 117.19,
+      "adj_d": 105.38,
+      "adj_em": 11.82
+    },
+    {
+      "name": "Alabama",
+      "conference": "SEC",
+      "record": "23-9",
+      "adj_t": 73.06,
+      "adj_o": 129.51,
+      "adj_d": 102.8,
+      "adj_em": 26.71
+    },
+    {
+      "name": "Alabama A&M",
+      "conference": "SWAC",
+      "record": "18-15",
+      "adj_t": 65.23,
+      "adj_o": 104.3,
+      "adj_d": 116.82,
+      "adj_em": -12.52
+    },
+    {
+      "name": "Alabama St.",
+      "conference": "SWAC",
+      "record": "10-22",
+      "adj_t": 69.28,
+      "adj_o": 99.69,
+      "adj_d": 111.7,
+      "adj_em": -12.01
+    },
+    {
+      "name": "Albany",
+      "conference": "AE",
+      "record": "11-21",
+      "adj_t": 65.28,
+      "adj_o": 103.47,
+      "adj_d": 117.94,
+      "adj_em": -14.47
+    },
+    {
+      "name": "Alcorn St.",
+      "conference": "SWAC",
+      "record": "9-23",
+      "adj_t": 67.95,
+      "adj_o": 97.23,
+      "adj_d": 115.69,
+      "adj_em": -18.45
+    },
+    {
+      "name": "American",
+      "conference": "Pat",
+      "record": "16-16",
+      "adj_t": 66.74,
+      "adj_o": 105.24,
+      "adj_d": 112.21,
+      "adj_em": -6.97
+    },
+    {
+      "name": "Appalachian St.",
+      "conference": "SB",
+      "record": "19-13",
+      "adj_t": 62.98,
+      "adj_o": 105.33,
+      "adj_d": 107,
+      "adj_em": -1.66
+    },
+    {
+      "name": "Arizona",
+      "conference": "B12",
+      "record": "32-2",
+      "adj_t": 70.03,
+      "adj_o": 126.93,
+      "adj_d": 91.39,
+      "adj_em": 35.54
+    },
+    {
+      "name": "Arizona St.",
+      "conference": "B12",
+      "record": "17-16",
+      "adj_t": 69.21,
+      "adj_o": 115.21,
+      "adj_d": 102.34,
+      "adj_em": 12.88
+    },
+    {
+      "name": "Arkansas",
+      "conference": "SEC",
+      "record": "26-8",
+      "adj_t": 70.97,
+      "adj_o": 127.94,
+      "adj_d": 101.64,
+      "adj_em": 26.29
+    },
+    {
+      "name": "Arkansas Pine Bluff",
+      "conference": "SWAC",
+      "record": "13-19",
+      "adj_t": 69.28,
+      "adj_o": 104.91,
+      "adj_d": 115.82,
+      "adj_em": -10.91
+    },
+    {
+      "name": "Arkansas St.",
+      "conference": "SB",
+      "record": "20-12",
+      "adj_t": 72.15,
+      "adj_o": 109.81,
+      "adj_d": 108.49,
+      "adj_em": 1.32
+    },
+    {
+      "name": "Army",
+      "conference": "Pat",
+      "record": "11-21",
+      "adj_t": 67.16,
+      "adj_o": 99.69,
+      "adj_d": 118.48,
+      "adj_em": -18.79
+    },
+    {
+      "name": "Auburn",
+      "conference": "SEC",
+      "record": "17-16",
+      "adj_t": 67.35,
+      "adj_o": 124.18,
+      "adj_d": 105.84,
+      "adj_em": 18.33
+    },
+    {
+      "name": "Austin Peay",
+      "conference": "ASun",
+      "record": "22-9",
+      "adj_t": 69.22,
+      "adj_o": 108.66,
+      "adj_d": 108.19,
+      "adj_em": 0.47
+    },
+    {
+      "name": "Ball St.",
+      "conference": "MAC",
+      "record": "12-19",
+      "adj_t": 63.65,
+      "adj_o": 99.02,
+      "adj_d": 108.23,
+      "adj_em": -9.2
+    },
+    {
+      "name": "Baylor",
+      "conference": "B12",
+      "record": "16-16",
+      "adj_t": 67.83,
+      "adj_o": 123.41,
+      "adj_d": 106.58,
+      "adj_em": 16.83
+    },
+    {
+      "name": "Bellarmine",
+      "conference": "ASun",
+      "record": "13-19",
+      "adj_t": 64.6,
+      "adj_o": 114.99,
+      "adj_d": 127.76,
+      "adj_em": -12.78
+    },
+    {
+      "name": "Belmont",
+      "conference": "MVC",
+      "record": "26-6",
+      "adj_t": 68.97,
+      "adj_o": 120.11,
+      "adj_d": 108.99,
+      "adj_em": 11.12
+    },
+    {
+      "name": "Bethune Cookman",
+      "conference": "SWAC",
+      "record": "17-15",
+      "adj_t": 68.99,
+      "adj_o": 104.12,
+      "adj_d": 108.6,
+      "adj_em": -4.48
+    },
+    {
+      "name": "Binghamton",
+      "conference": "AE",
+      "record": "8-23",
+      "adj_t": 65.52,
+      "adj_o": 98.4,
+      "adj_d": 123.04,
+      "adj_em": -24.64
+    },
+    {
+      "name": "Boise St.",
+      "conference": "MWC",
+      "record": "20-12",
+      "adj_t": 65.74,
+      "adj_o": 118.12,
+      "adj_d": 103.8,
+      "adj_em": 14.33
+    },
+    {
+      "name": "Boston College",
+      "conference": "ACC",
+      "record": "11-20",
+      "adj_t": 65.96,
+      "adj_o": 103.72,
+      "adj_d": 101.5,
+      "adj_em": 2.22
+    },
+    {
+      "name": "Boston University",
+      "conference": "Pat",
+      "record": "17-17",
+      "adj_t": 63.12,
+      "adj_o": 111.7,
+      "adj_d": 119.15,
+      "adj_em": -7.46
+    },
+    {
+      "name": "Bowling Green",
+      "conference": "MAC",
+      "record": "18-14",
+      "adj_t": 68.23,
+      "adj_o": 105.97,
+      "adj_d": 105.12,
+      "adj_em": 0.85
+    },
+    {
+      "name": "Bradley",
+      "conference": "MVC",
+      "record": "21-12",
+      "adj_t": 67.51,
+      "adj_o": 110.77,
+      "adj_d": 107.81,
+      "adj_em": 2.96
+    },
+    {
+      "name": "Brown",
+      "conference": "Ivy",
+      "record": "9-18",
+      "adj_t": 66.69,
+      "adj_o": 97.79,
+      "adj_d": 107.97,
+      "adj_em": -10.18
+    },
+    {
+      "name": "Bryant",
+      "conference": "AE",
+      "record": "9-22",
+      "adj_t": 64.24,
+      "adj_o": 96.71,
+      "adj_d": 120.15,
+      "adj_em": -23.44
+    },
+    {
+      "name": "Bucknell",
+      "conference": "Pat",
+      "record": "10-23",
+      "adj_t": 67.05,
+      "adj_o": 98.8,
+      "adj_d": 114.07,
+      "adj_em": -15.28
+    },
+    {
+      "name": "Buffalo",
+      "conference": "MAC",
+      "record": "17-15",
+      "adj_t": 66.45,
+      "adj_o": 111.25,
+      "adj_d": 115.73,
+      "adj_em": -4.49
+    },
+    {
+      "name": "Butler",
+      "conference": "BE",
+      "record": "16-16",
+      "adj_t": 68.9,
+      "adj_o": 117.23,
+      "adj_d": 105.59,
+      "adj_em": 11.65
+    },
+    {
+      "name": "BYU",
+      "conference": "B12",
+      "record": "23-11",
+      "adj_t": 69.78,
+      "adj_o": 124.75,
+      "adj_d": 104.32,
+      "adj_em": 20.43
+    },
+    {
+      "name": "Cal Baptist",
+      "conference": "WAC",
+      "record": "25-8",
+      "adj_t": 65.93,
+      "adj_o": 107.49,
+      "adj_d": 100.31,
+      "adj_em": 7.18
+    },
+    {
+      "name": "Cal Poly",
+      "conference": "BW",
+      "record": "14-19",
+      "adj_t": 74.1,
+      "adj_o": 109.45,
+      "adj_d": 113.31,
+      "adj_em": -3.85
+    },
+    {
+      "name": "Cal St. Bakersfield",
+      "conference": "BW",
+      "record": "8-24",
+      "adj_t": 70.04,
+      "adj_o": 101.69,
+      "adj_d": 117.32,
+      "adj_em": -15.64
+    },
+    {
+      "name": "Cal St. Fullerton",
+      "conference": "BW",
+      "record": "18-16",
+      "adj_t": 72.88,
+      "adj_o": 107.6,
+      "adj_d": 109.69,
+      "adj_em": -2.09
+    },
+    {
+      "name": "Cal St. Northridge",
+      "conference": "BW",
+      "record": "20-14",
+      "adj_t": 73.46,
+      "adj_o": 108.93,
+      "adj_d": 108.9,
+      "adj_em": 0.02
+    },
+    {
+      "name": "California",
+      "conference": "ACC",
+      "record": "21-11",
+      "adj_t": 67.86,
+      "adj_o": 113.77,
+      "adj_d": 102.15,
+      "adj_em": 11.62
+    },
+    {
+      "name": "Campbell",
+      "conference": "CAA",
+      "record": "16-18",
+      "adj_t": 69.84,
+      "adj_o": 110.39,
+      "adj_d": 112.27,
+      "adj_em": -1.88
+    },
+    {
+      "name": "Canisius",
+      "conference": "MAAC",
+      "record": "10-21",
+      "adj_t": 64.06,
+      "adj_o": 95.56,
+      "adj_d": 113.99,
+      "adj_em": -18.42
+    },
+    {
+      "name": "Central Arkansas",
+      "conference": "ASun",
+      "record": "22-12",
+      "adj_t": 67.91,
+      "adj_o": 109.6,
+      "adj_d": 108.07,
+      "adj_em": 1.53
+    },
+    {
+      "name": "Central Connecticut",
+      "conference": "NEC",
+      "record": "18-12",
+      "adj_t": 64.84,
+      "adj_o": 104.46,
+      "adj_d": 117.44,
+      "adj_em": -12.98
+    },
+    {
+      "name": "Central Michigan",
+      "conference": "MAC",
+      "record": "10-21",
+      "adj_t": 67.06,
+      "adj_o": 106.5,
+      "adj_d": 113.57,
+      "adj_em": -7.07
+    },
+    {
+      "name": "Charleston",
+      "conference": "CAA",
+      "record": "21-11",
+      "adj_t": 67.73,
+      "adj_o": 106.73,
+      "adj_d": 108.72,
+      "adj_em": -1.99
+    },
+    {
+      "name": "Charleston Southern",
+      "conference": "BSth",
+      "record": "15-17",
+      "adj_t": 71.57,
+      "adj_o": 104.87,
+      "adj_d": 112.23,
+      "adj_em": -7.37
+    },
+    {
+      "name": "Charlotte",
+      "conference": "Amer",
+      "record": "17-17",
+      "adj_t": 63.38,
+      "adj_o": 112.87,
+      "adj_d": 113.5,
+      "adj_em": -0.63
+    },
+    {
+      "name": "Chattanooga",
+      "conference": "SC",
+      "record": "13-19",
+      "adj_t": 67.05,
+      "adj_o": 105.32,
+      "adj_d": 118.39,
+      "adj_em": -13.07
+    },
+    {
+      "name": "Chicago St.",
+      "conference": "NEC",
+      "record": "7-25",
+      "adj_t": 65.64,
+      "adj_o": 99.91,
+      "adj_d": 118.65,
+      "adj_em": -18.74
+    },
+    {
+      "name": "Cincinnati",
+      "conference": "B12",
+      "record": "18-15",
+      "adj_t": 67.65,
+      "adj_o": 112.31,
+      "adj_d": 93.69,
+      "adj_em": 18.62
+    },
+    {
+      "name": "Clemson",
+      "conference": "ACC",
+      "record": "24-10",
+      "adj_t": 64.27,
+      "adj_o": 116.56,
+      "adj_d": 97,
+      "adj_em": 19.56
+    },
+    {
+      "name": "Cleveland St.",
+      "conference": "Horz",
+      "record": "11-22",
+      "adj_t": 69.6,
+      "adj_o": 109.64,
+      "adj_d": 123.59,
+      "adj_em": -13.95
+    },
+    {
+      "name": "Coastal Carolina",
+      "conference": "SB",
+      "record": "19-13",
+      "adj_t": 67.08,
+      "adj_o": 101.79,
+      "adj_d": 107.46,
+      "adj_em": -5.66
+    },
+    {
+      "name": "Colgate",
+      "conference": "Pat",
+      "record": "18-15",
+      "adj_t": 66.85,
+      "adj_o": 107.39,
+      "adj_d": 114.69,
+      "adj_em": -7.31
+    },
+    {
+      "name": "Colorado",
+      "conference": "B12",
+      "record": "17-15",
+      "adj_t": 68.61,
+      "adj_o": 118.02,
+      "adj_d": 106.81,
+      "adj_em": 11.2
+    },
+    {
+      "name": "Colorado St.",
+      "conference": "MWC",
+      "record": "21-12",
+      "adj_t": 62.98,
+      "adj_o": 118.25,
+      "adj_d": 109.14,
+      "adj_em": 9.11
+    },
+    {
+      "name": "Columbia",
+      "conference": "Ivy",
+      "record": "16-12",
+      "adj_t": 66.82,
+      "adj_o": 107.86,
+      "adj_d": 110.77,
+      "adj_em": -2.91
+    },
+    {
+      "name": "Connecticut",
+      "conference": "BE",
+      "record": "29-5",
+      "adj_t": 64.58,
+      "adj_o": 123.09,
+      "adj_d": 94.98,
+      "adj_em": 28.11
+    },
+    {
+      "name": "Coppin St.",
+      "conference": "MEAC",
+      "record": "7-24",
+      "adj_t": 68.57,
+      "adj_o": 91.71,
+      "adj_d": 119.47,
+      "adj_em": -27.76
+    },
+    {
+      "name": "Cornell",
+      "conference": "Ivy",
+      "record": "15-13",
+      "adj_t": 71.41,
+      "adj_o": 119.76,
+      "adj_d": 119.04,
+      "adj_em": 0.72
+    },
+    {
+      "name": "Creighton",
+      "conference": "BE",
+      "record": "15-17",
+      "adj_t": 67.35,
+      "adj_o": 114.89,
+      "adj_d": 105.33,
+      "adj_em": 9.56
+    },
+    {
+      "name": "Dartmouth",
+      "conference": "Ivy",
+      "record": "11-16",
+      "adj_t": 69.54,
+      "adj_o": 104.53,
+      "adj_d": 113.46,
+      "adj_em": -8.93
+    },
+    {
+      "name": "Davidson",
+      "conference": "A10",
+      "record": "20-13",
+      "adj_t": 63.57,
+      "adj_o": 110.13,
+      "adj_d": 103.68,
+      "adj_em": 6.46
+    },
+    {
+      "name": "Dayton",
+      "conference": "A10",
+      "record": "23-11",
+      "adj_t": 67.02,
+      "adj_o": 110.1,
+      "adj_d": 100.06,
+      "adj_em": 10.03
+    },
+    {
+      "name": "Delaware",
+      "conference": "CUSA",
+      "record": "10-21",
+      "adj_t": 63.14,
+      "adj_o": 105.68,
+      "adj_d": 115.09,
+      "adj_em": -9.41
+    },
+    {
+      "name": "Delaware St.",
+      "conference": "MEAC",
+      "record": "8-23",
+      "adj_t": 65.49,
+      "adj_o": 88.36,
+      "adj_d": 114.48,
+      "adj_em": -26.12
+    },
+    {
+      "name": "Denver",
+      "conference": "Sum",
+      "record": "15-17",
+      "adj_t": 68.05,
+      "adj_o": 114.97,
+      "adj_d": 121.37,
+      "adj_em": -6.4
+    },
+    {
+      "name": "DePaul",
+      "conference": "BE",
+      "record": "16-16",
+      "adj_t": 66.46,
+      "adj_o": 106.76,
+      "adj_d": 100.02,
+      "adj_em": 6.75
+    },
+    {
+      "name": "Detroit Mercy",
+      "conference": "Horz",
+      "record": "17-15",
+      "adj_t": 68.81,
+      "adj_o": 108.8,
+      "adj_d": 110.64,
+      "adj_em": -1.84
+    },
+    {
+      "name": "Drake",
+      "conference": "MVC",
+      "record": "14-20",
+      "adj_t": 67.08,
+      "adj_o": 109.52,
+      "adj_d": 113.32,
+      "adj_em": -3.8
+    },
+    {
+      "name": "Drexel",
+      "conference": "CAA",
+      "record": "17-16",
+      "adj_t": 64.19,
+      "adj_o": 102.63,
+      "adj_d": 105.14,
+      "adj_em": -2.51
+    },
+    {
+      "name": "Duke",
+      "conference": "ACC",
+      "record": "32-2",
+      "adj_t": 65.8,
+      "adj_o": 128.16,
+      "adj_d": 90.81,
+      "adj_em": 37.35
+    },
+    {
+      "name": "Duquesne",
+      "conference": "A10",
+      "record": "18-15",
+      "adj_t": 68.83,
+      "adj_o": 110.82,
+      "adj_d": 106.67,
+      "adj_em": 4.15
+    },
+    {
+      "name": "East Carolina",
+      "conference": "Amer",
+      "record": "11-20",
+      "adj_t": 68.66,
+      "adj_o": 103.61,
+      "adj_d": 111.28,
+      "adj_em": -7.66
+    },
+    {
+      "name": "East Tennessee St.",
+      "conference": "SC",
+      "record": "23-11",
+      "adj_t": 66.02,
+      "adj_o": 107.84,
+      "adj_d": 110.05,
+      "adj_em": -2.21
+    },
+    {
+      "name": "East Texas A&M",
+      "conference": "Slnd",
+      "record": "11-21",
+      "adj_t": 68.39,
+      "adj_o": 100.63,
+      "adj_d": 111.5,
+      "adj_em": -10.87
+    },
+    {
+      "name": "Eastern Illinois",
+      "conference": "OVC",
+      "record": "13-20",
+      "adj_t": 65.64,
+      "adj_o": 96.69,
+      "adj_d": 112.65,
+      "adj_em": -15.96
+    },
+    {
+      "name": "Eastern Kentucky",
+      "conference": "ASun",
+      "record": "11-21",
+      "adj_t": 67.25,
+      "adj_o": 108.57,
+      "adj_d": 120.92,
+      "adj_em": -12.35
+    },
+    {
+      "name": "Eastern Michigan",
+      "conference": "MAC",
+      "record": "10-21",
+      "adj_t": 66.48,
+      "adj_o": 101.61,
+      "adj_d": 107.72,
+      "adj_em": -6.11
+    },
+    {
+      "name": "Eastern Washington",
+      "conference": "BSky",
+      "record": "14-19",
+      "adj_t": 67.8,
+      "adj_o": 113.16,
+      "adj_d": 112.1,
+      "adj_em": 1.06
+    },
+    {
+      "name": "Elon",
+      "conference": "CAA",
+      "record": "14-18",
+      "adj_t": 66.83,
+      "adj_o": 108.01,
+      "adj_d": 116.39,
+      "adj_em": -8.38
+    },
+    {
+      "name": "Evansville",
+      "conference": "MVC",
+      "record": "7-25",
+      "adj_t": 66.96,
+      "adj_o": 102.35,
+      "adj_d": 114.29,
+      "adj_em": -11.94
+    },
+    {
+      "name": "Fairfield",
+      "conference": "MAAC",
+      "record": "21-13",
+      "adj_t": 67.05,
+      "adj_o": 105.37,
+      "adj_d": 113.08,
+      "adj_em": -7.71
+    },
+    {
+      "name": "Fairleigh Dickinson",
+      "conference": "NEC",
+      "record": "11-21",
+      "adj_t": 64.05,
+      "adj_o": 100.57,
+      "adj_d": 119.01,
+      "adj_em": -18.44
+    },
+    {
+      "name": "FIU",
+      "conference": "CUSA",
+      "record": "15-17",
+      "adj_t": 71.61,
+      "adj_o": 107.69,
+      "adj_d": 108.56,
+      "adj_em": -0.87
+    },
+    {
+      "name": "Florida",
+      "conference": "SEC",
+      "record": "26-7",
+      "adj_t": 70.4,
+      "adj_o": 126.09,
+      "adj_d": 92.27,
+      "adj_em": 33.82
+    },
+    {
+      "name": "Florida A&M",
+      "conference": "SWAC",
+      "record": "15-16",
+      "adj_t": 67.98,
+      "adj_o": 98.84,
+      "adj_d": 109.39,
+      "adj_em": -10.55
+    },
+    {
+      "name": "Florida Atlantic",
+      "conference": "Amer",
+      "record": "18-15",
+      "adj_t": 69.81,
+      "adj_o": 109.55,
+      "adj_d": 105.61,
+      "adj_em": 3.94
+    },
+    {
+      "name": "Florida Gulf Coast",
+      "conference": "ASun",
+      "record": "16-18",
+      "adj_t": 67.61,
+      "adj_o": 105.17,
+      "adj_d": 111.54,
+      "adj_em": -6.37
+    },
+    {
+      "name": "Florida St.",
+      "conference": "ACC",
+      "record": "18-15",
+      "adj_t": 70.61,
+      "adj_o": 119.44,
+      "adj_d": 103.95,
+      "adj_em": 15.48
+    },
+    {
+      "name": "Fordham",
+      "conference": "A10",
+      "record": "17-15",
+      "adj_t": 64.2,
+      "adj_o": 103.21,
+      "adj_d": 104.21,
+      "adj_em": -1
+    },
+    {
+      "name": "Fresno St.",
+      "conference": "MWC",
+      "record": "13-19",
+      "adj_t": 68.28,
+      "adj_o": 106.97,
+      "adj_d": 103.81,
+      "adj_em": 3.15
+    },
+    {
+      "name": "Furman",
+      "conference": "SC",
+      "record": "22-12",
+      "adj_t": 65.84,
+      "adj_o": 106.92,
+      "adj_d": 109.02,
+      "adj_em": -2.1
+    },
+    {
+      "name": "Gardner Webb",
+      "conference": "BSth",
+      "record": "4-29",
+      "adj_t": 69.6,
+      "adj_o": 95.42,
+      "adj_d": 122.1,
+      "adj_em": -26.68
+    },
+    {
+      "name": "George Mason",
+      "conference": "A10",
+      "record": "23-9",
+      "adj_t": 63.57,
+      "adj_o": 110.84,
+      "adj_d": 105.84,
+      "adj_em": 4.99
+    },
+    {
+      "name": "George Washington",
+      "conference": "A10",
+      "record": "18-15",
+      "adj_t": 69.33,
+      "adj_o": 117.39,
+      "adj_d": 106.95,
+      "adj_em": 10.44
+    },
+    {
+      "name": "Georgetown",
+      "conference": "BE",
+      "record": "16-18",
+      "adj_t": 66.21,
+      "adj_o": 114.01,
+      "adj_d": 103.3,
+      "adj_em": 10.71
+    },
+    {
+      "name": "Georgia",
+      "conference": "SEC",
+      "record": "22-10",
+      "adj_t": 72.03,
+      "adj_o": 124.35,
+      "adj_d": 104.77,
+      "adj_em": 19.59
+    },
+    {
+      "name": "Georgia Southern",
+      "conference": "SB",
+      "record": "21-16",
+      "adj_t": 70.1,
+      "adj_o": 110.01,
+      "adj_d": 115.88,
+      "adj_em": -5.87
+    },
+    {
+      "name": "Georgia St.",
+      "conference": "SB",
+      "record": "10-22",
+      "adj_t": 67.92,
+      "adj_o": 99.31,
+      "adj_d": 112.07,
+      "adj_em": -12.76
+    },
+    {
+      "name": "Georgia Tech",
+      "conference": "ACC",
+      "record": "11-20",
+      "adj_t": 70.9,
+      "adj_o": 106.89,
+      "adj_d": 106.57,
+      "adj_em": 0.32
+    },
+    {
+      "name": "Gonzaga",
+      "conference": "WCC",
+      "record": "30-3",
+      "adj_t": 68.93,
+      "adj_o": 120.31,
+      "adj_d": 94.02,
+      "adj_em": 26.29
+    },
+    {
+      "name": "Grambling St.",
+      "conference": "SWAC",
+      "record": "14-19",
+      "adj_t": 67.51,
+      "adj_o": 96.32,
+      "adj_d": 107.28,
+      "adj_em": -10.96
+    },
+    {
+      "name": "Grand Canyon",
+      "conference": "MWC",
+      "record": "20-12",
+      "adj_t": 68.01,
+      "adj_o": 111.09,
+      "adj_d": 97.56,
+      "adj_em": 13.53
+    },
+    {
+      "name": "Green Bay",
+      "conference": "Horz",
+      "record": "18-15",
+      "adj_t": 62.96,
+      "adj_o": 113.05,
+      "adj_d": 114.31,
+      "adj_em": -1.26
+    },
+    {
+      "name": "Hampton",
+      "conference": "CAA",
+      "record": "13-19",
+      "adj_t": 65.4,
+      "adj_o": 100.66,
+      "adj_d": 112.66,
+      "adj_em": -12
+    },
+    {
+      "name": "Harvard",
+      "conference": "Ivy",
+      "record": "17-12",
+      "adj_t": 63.12,
+      "adj_o": 105.35,
+      "adj_d": 105.15,
+      "adj_em": 0.21
+    },
+    {
+      "name": "Hawaii",
+      "conference": "BW",
+      "record": "24-8",
+      "adj_t": 69.58,
+      "adj_o": 106.87,
+      "adj_d": 101.84,
+      "adj_em": 5.03
+    },
+    {
+      "name": "High Point",
+      "conference": "BSth",
+      "record": "30-4",
+      "adj_t": 69.89,
+      "adj_o": 115.69,
+      "adj_d": 107.51,
+      "adj_em": 8.18
+    },
+    {
+      "name": "Hofstra",
+      "conference": "CAA",
+      "record": "24-10",
+      "adj_t": 64.71,
+      "adj_o": 113.17,
+      "adj_d": 104.9,
+      "adj_em": 8.27
+    },
+    {
+      "name": "Holy Cross",
+      "conference": "Pat",
+      "record": "11-22",
+      "adj_t": 65.44,
+      "adj_o": 100.66,
+      "adj_d": 117.91,
+      "adj_em": -17.25
+    },
+    {
+      "name": "Houston",
+      "conference": "B12",
+      "record": "28-6",
+      "adj_t": 63.33,
+      "adj_o": 125.34,
+      "adj_d": 92.39,
+      "adj_em": 32.95
+    },
+    {
+      "name": "Houston Christian",
+      "conference": "Slnd",
+      "record": "12-20",
+      "adj_t": 64.11,
+      "adj_o": 101.63,
+      "adj_d": 113.89,
+      "adj_em": -12.26
+    },
+    {
+      "name": "Howard",
+      "conference": "MEAC",
+      "record": "23-10",
+      "adj_t": 69.05,
+      "adj_o": 103.48,
+      "adj_d": 106.23,
+      "adj_em": -2.75
+    },
+    {
+      "name": "Idaho",
+      "conference": "BSky",
+      "record": "21-14",
+      "adj_t": 67.42,
+      "adj_o": 108.83,
+      "adj_d": 106.17,
+      "adj_em": 2.65
+    },
+    {
+      "name": "Idaho St.",
+      "conference": "BSky",
+      "record": "13-20",
+      "adj_t": 65.23,
+      "adj_o": 108.8,
+      "adj_d": 116.94,
+      "adj_em": -8.15
+    },
+    {
+      "name": "Illinois",
+      "conference": "B10",
+      "record": "24-8",
+      "adj_t": 65.72,
+      "adj_o": 131.95,
+      "adj_d": 98.21,
+      "adj_em": 33.73
+    },
+    {
+      "name": "Illinois Chicago",
+      "conference": "MVC",
+      "record": "19-15",
+      "adj_t": 66.28,
+      "adj_o": 109.62,
+      "adj_d": 103.85,
+      "adj_em": 5.77
+    },
+    {
+      "name": "Illinois St.",
+      "conference": "MVC",
+      "record": "20-12",
+      "adj_t": 66.82,
+      "adj_o": 109.23,
+      "adj_d": 103.46,
+      "adj_em": 5.77
+    },
+    {
+      "name": "Incarnate Word",
+      "conference": "Slnd",
+      "record": "12-19",
+      "adj_t": 65.46,
+      "adj_o": 108.6,
+      "adj_d": 118.07,
+      "adj_em": -9.48
+    },
+    {
+      "name": "Indiana",
+      "conference": "B10",
+      "record": "18-14",
+      "adj_t": 66.2,
+      "adj_o": 121.91,
+      "adj_d": 102.07,
+      "adj_em": 19.84
+    },
+    {
+      "name": "Indiana St.",
+      "conference": "MVC",
+      "record": "11-21",
+      "adj_t": 68.21,
+      "adj_o": 105.89,
+      "adj_d": 108.76,
+      "adj_em": -2.86
+    },
+    {
+      "name": "Iona",
+      "conference": "MAAC",
+      "record": "18-14",
+      "adj_t": 69.13,
+      "adj_o": 104,
+      "adj_d": 110.88,
+      "adj_em": -6.87
+    },
+    {
+      "name": "Iowa",
+      "conference": "B10",
+      "record": "21-12",
+      "adj_t": 63.03,
+      "adj_o": 122.13,
+      "adj_d": 100.2,
+      "adj_em": 21.92
+    },
+    {
+      "name": "Iowa St.",
+      "conference": "B12",
+      "record": "27-7",
+      "adj_t": 66.96,
+      "adj_o": 123.76,
+      "adj_d": 92.62,
+      "adj_em": 31.14
+    },
+    {
+      "name": "IU Indy",
+      "conference": "Horz",
+      "record": "7-25",
+      "adj_t": 73.67,
+      "adj_o": 106.15,
+      "adj_d": 117.49,
+      "adj_em": -11.34
+    },
+    {
+      "name": "Jackson St.",
+      "conference": "SWAC",
+      "record": "12-21",
+      "adj_t": 69.58,
+      "adj_o": 100.94,
+      "adj_d": 118.21,
+      "adj_em": -17.27
+    },
+    {
+      "name": "Jacksonville",
+      "conference": "ASun",
+      "record": "12-20",
+      "adj_t": 63.52,
+      "adj_o": 103.44,
+      "adj_d": 113.9,
+      "adj_em": -10.45
+    },
+    {
+      "name": "Jacksonville St.",
+      "conference": "CUSA",
+      "record": "15-17",
+      "adj_t": 65.1,
+      "adj_o": 105.29,
+      "adj_d": 107.98,
+      "adj_em": -2.69
+    },
+    {
+      "name": "James Madison",
+      "conference": "SB",
+      "record": "18-15",
+      "adj_t": 65.97,
+      "adj_o": 109.07,
+      "adj_d": 112.37,
+      "adj_em": -3.3
+    },
+    {
+      "name": "Kansas",
+      "conference": "B12",
+      "record": "23-10",
+      "adj_t": 67.61,
+      "adj_o": 117.82,
+      "adj_d": 94.36,
+      "adj_em": 23.46
+    },
+    {
+      "name": "Kansas St.",
+      "conference": "B12",
+      "record": "12-20",
+      "adj_t": 72.67,
+      "adj_o": 112.75,
+      "adj_d": 105.65,
+      "adj_em": 7.1
+    },
+    {
+      "name": "Kennesaw St.",
+      "conference": "CUSA",
+      "record": "21-13",
+      "adj_t": 71.27,
+      "adj_o": 110.81,
+      "adj_d": 109.51,
+      "adj_em": 1.3
+    },
+    {
+      "name": "Kent St.",
+      "conference": "MAC",
+      "record": "24-9",
+      "adj_t": 70.57,
+      "adj_o": 110.65,
+      "adj_d": 110.04,
+      "adj_em": 0.61
+    },
+    {
+      "name": "Kentucky",
+      "conference": "SEC",
+      "record": "21-13",
+      "adj_t": 68.32,
+      "adj_o": 119.91,
+      "adj_d": 99.98,
+      "adj_em": 19.94
+    },
+    {
+      "name": "La Salle",
+      "conference": "A10",
+      "record": "9-23",
+      "adj_t": 65.76,
+      "adj_o": 105.97,
+      "adj_d": 109.66,
+      "adj_em": -3.69
+    },
+    {
+      "name": "Lafayette",
+      "conference": "Pat",
+      "record": "11-21",
+      "adj_t": 66.81,
+      "adj_o": 100.43,
+      "adj_d": 115.4,
+      "adj_em": -14.97
+    },
+    {
+      "name": "Lamar",
+      "conference": "Slnd",
+      "record": "12-19",
+      "adj_t": 65.37,
+      "adj_o": 102.75,
+      "adj_d": 110.06,
+      "adj_em": -7.31
+    },
+    {
+      "name": "Le Moyne",
+      "conference": "NEC",
+      "record": "15-17",
+      "adj_t": 69.47,
+      "adj_o": 100.77,
+      "adj_d": 113.55,
+      "adj_em": -12.79
+    },
+    {
+      "name": "Lehigh",
+      "conference": "Pat",
+      "record": "18-16",
+      "adj_t": 66.87,
+      "adj_o": 102.59,
+      "adj_d": 112.78,
+      "adj_em": -10.2
+    },
+    {
+      "name": "Liberty",
+      "conference": "CUSA",
+      "record": "25-7",
+      "adj_t": 63.9,
+      "adj_o": 117.55,
+      "adj_d": 112.95,
+      "adj_em": 4.59
+    },
+    {
+      "name": "Lindenwood",
+      "conference": "OVC",
+      "record": "18-15",
+      "adj_t": 72.4,
+      "adj_o": 100.18,
+      "adj_d": 108.73,
+      "adj_em": -8.54
+    },
+    {
+      "name": "Lipscomb",
+      "conference": "ASun",
+      "record": "19-13",
+      "adj_t": 69.45,
+      "adj_o": 105.03,
+      "adj_d": 111.06,
+      "adj_em": -6.03
+    },
+    {
+      "name": "Little Rock",
+      "conference": "OVC",
+      "record": "12-20",
+      "adj_t": 66.46,
+      "adj_o": 101.05,
+      "adj_d": 116.78,
+      "adj_em": -15.72
+    },
+    {
+      "name": "LIU",
+      "conference": "NEC",
+      "record": "24-10",
+      "adj_t": 67.83,
+      "adj_o": 103.64,
+      "adj_d": 109.78,
+      "adj_em": -6.14
+    },
+    {
+      "name": "Long Beach St.",
+      "conference": "BW",
+      "record": "10-22",
+      "adj_t": 68.42,
+      "adj_o": 104.26,
+      "adj_d": 110.79,
+      "adj_em": -6.53
+    },
+    {
+      "name": "Longwood",
+      "conference": "BSth",
+      "record": "16-16",
+      "adj_t": 68.53,
+      "adj_o": 103.04,
+      "adj_d": 111.75,
+      "adj_em": -8.71
+    },
+    {
+      "name": "Louisiana",
+      "conference": "SB",
+      "record": "11-22",
+      "adj_t": 63.27,
+      "adj_o": 101.54,
+      "adj_d": 111.82,
+      "adj_em": -10.28
+    },
+    {
+      "name": "Louisiana Monroe",
+      "conference": "SB",
+      "record": "4-28",
+      "adj_t": 70.25,
+      "adj_o": 101.11,
+      "adj_d": 122.3,
+      "adj_em": -21.19
+    },
+    {
+      "name": "Louisiana Tech",
+      "conference": "CUSA",
+      "record": "20-14",
+      "adj_t": 63.94,
+      "adj_o": 103.23,
+      "adj_d": 105.14,
+      "adj_em": -1.91
+    },
+    {
+      "name": "Louisville",
+      "conference": "ACC",
+      "record": "23-10",
+      "adj_t": 69.71,
+      "adj_o": 124.03,
+      "adj_d": 98.17,
+      "adj_em": 25.87
+    },
+    {
+      "name": "Loyola Chicago",
+      "conference": "A10",
+      "record": "9-24",
+      "adj_t": 65.76,
+      "adj_o": 103.21,
+      "adj_d": 112.32,
+      "adj_em": -9.11
+    },
+    {
+      "name": "Loyola Marymount",
+      "conference": "WCC",
+      "record": "15-17",
+      "adj_t": 67.19,
+      "adj_o": 106.47,
+      "adj_d": 105.43,
+      "adj_em": 1.04
+    },
+    {
+      "name": "Loyola MD",
+      "conference": "Pat",
+      "record": "12-20",
+      "adj_t": 68.2,
+      "adj_o": 103.54,
+      "adj_d": 119.48,
+      "adj_em": -15.93
+    },
+    {
+      "name": "LSU",
+      "conference": "SEC",
+      "record": "15-17",
+      "adj_t": 66.59,
+      "adj_o": 118.83,
+      "adj_d": 106.74,
+      "adj_em": 12.09
+    },
+    {
+      "name": "Maine",
+      "conference": "AE",
+      "record": "8-24",
+      "adj_t": 64.75,
+      "adj_o": 92.25,
+      "adj_d": 111.86,
+      "adj_em": -19.6
+    },
+    {
+      "name": "Manhattan",
+      "conference": "MAAC",
+      "record": "12-20",
+      "adj_t": 67.97,
+      "adj_o": 103.57,
+      "adj_d": 121.64,
+      "adj_em": -18.07
+    },
+    {
+      "name": "Marist",
+      "conference": "MAAC",
+      "record": "19-12",
+      "adj_t": 66.22,
+      "adj_o": 99.58,
+      "adj_d": 102.46,
+      "adj_em": -2.88
+    },
+    {
+      "name": "Marquette",
+      "conference": "BE",
+      "record": "12-20",
+      "adj_t": 69.22,
+      "adj_o": 111.77,
+      "adj_d": 101.19,
+      "adj_em": 10.59
+    },
+    {
+      "name": "Marshall",
+      "conference": "SB",
+      "record": "19-13",
+      "adj_t": 69.4,
+      "adj_o": 111.92,
+      "adj_d": 115.74,
+      "adj_em": -3.81
+    },
+    {
+      "name": "Maryland",
+      "conference": "B10",
+      "record": "12-21",
+      "adj_t": 66.29,
+      "adj_o": 111.75,
+      "adj_d": 105.9,
+      "adj_em": 5.85
+    },
+    {
+      "name": "Maryland Eastern Shore",
+      "conference": "MEAC",
+      "record": "9-23",
+      "adj_t": 63.27,
+      "adj_o": 93.13,
+      "adj_d": 116.46,
+      "adj_em": -23.33
+    },
+    {
+      "name": "Massachusetts",
+      "conference": "MAC",
+      "record": "17-16",
+      "adj_t": 70.17,
+      "adj_o": 109.91,
+      "adj_d": 110.62,
+      "adj_em": -0.71
+    },
+    {
+      "name": "McNeese St.",
+      "conference": "Slnd",
+      "record": "28-5",
+      "adj_t": 66.14,
+      "adj_o": 113.16,
+      "adj_d": 102.13,
+      "adj_em": 11.03
+    },
+    {
+      "name": "Memphis",
+      "conference": "Amer",
+      "record": "13-19",
+      "adj_t": 69.96,
+      "adj_o": 107.89,
+      "adj_d": 104.8,
+      "adj_em": 3.09
+    },
+    {
+      "name": "Mercer",
+      "conference": "SC",
+      "record": "19-13",
+      "adj_t": 68.94,
+      "adj_o": 110.71,
+      "adj_d": 114.01,
+      "adj_em": -3.3
+    },
+    {
+      "name": "Mercyhurst",
+      "conference": "NEC",
+      "record": "17-17",
+      "adj_t": 64.59,
+      "adj_o": 101.31,
+      "adj_d": 111.49,
+      "adj_em": -10.18
+    },
+    {
+      "name": "Merrimack",
+      "conference": "MAAC",
+      "record": "23-11",
+      "adj_t": 63.5,
+      "adj_o": 106.15,
+      "adj_d": 106.39,
+      "adj_em": -0.24
+    },
+    {
+      "name": "Miami FL",
+      "conference": "ACC",
+      "record": "25-8",
+      "adj_t": 67.93,
+      "adj_o": 121.09,
+      "adj_d": 101.45,
+      "adj_em": 19.64
+    },
+    {
+      "name": "Miami OH",
+      "conference": "MAC",
+      "record": "31-1",
+      "adj_t": 69.94,
+      "adj_o": 116.68,
+      "adj_d": 107.59,
+      "adj_em": 9.09
+    },
+    {
+      "name": "Michigan",
+      "conference": "B10",
+      "record": "31-3",
+      "adj_t": 71.22,
+      "adj_o": 127.65,
+      "adj_d": 91.04,
+      "adj_em": 36.61
+    },
+    {
+      "name": "Michigan St.",
+      "conference": "B10",
+      "record": "25-7",
+      "adj_t": 65.98,
+      "adj_o": 122.92,
+      "adj_d": 96.19,
+      "adj_em": 26.73
+    },
+    {
+      "name": "Middle Tennessee",
+      "conference": "CUSA",
+      "record": "17-15",
+      "adj_t": 65.55,
+      "adj_o": 109.69,
+      "adj_d": 109.12,
+      "adj_em": 0.57
+    },
+    {
+      "name": "Milwaukee",
+      "conference": "Horz",
+      "record": "12-20",
+      "adj_t": 67.63,
+      "adj_o": 106.06,
+      "adj_d": 115.21,
+      "adj_em": -9.15
+    },
+    {
+      "name": "Minnesota",
+      "conference": "B10",
+      "record": "15-17",
+      "adj_t": 62.65,
+      "adj_o": 115.96,
+      "adj_d": 102.13,
+      "adj_em": 13.82
+    },
+    {
+      "name": "Mississippi",
+      "conference": "SEC",
+      "record": "15-20",
+      "adj_t": 66.07,
+      "adj_o": 114.06,
+      "adj_d": 101.69,
+      "adj_em": 12.37
+    },
+    {
+      "name": "Mississippi St.",
+      "conference": "SEC",
+      "record": "13-19",
+      "adj_t": 69.5,
+      "adj_o": 112.86,
+      "adj_d": 105.54,
+      "adj_em": 7.32
+    },
+    {
+      "name": "Mississippi Valley St.",
+      "conference": "SWAC",
+      "record": "3-30",
+      "adj_t": 67.2,
+      "adj_o": 91.12,
+      "adj_d": 120.94,
+      "adj_em": -29.82
+    },
+    {
+      "name": "Missouri",
+      "conference": "SEC",
+      "record": "20-12",
+      "adj_t": 66.38,
+      "adj_o": 119.95,
+      "adj_d": 103.05,
+      "adj_em": 16.9
+    },
+    {
+      "name": "Missouri St.",
+      "conference": "CUSA",
+      "record": "16-18",
+      "adj_t": 65.27,
+      "adj_o": 109.3,
+      "adj_d": 111.71,
+      "adj_em": -2.41
+    },
+    {
+      "name": "Monmouth",
+      "conference": "CAA",
+      "record": "19-15",
+      "adj_t": 66.89,
+      "adj_o": 106.36,
+      "adj_d": 106.73,
+      "adj_em": -0.37
+    },
+    {
+      "name": "Montana",
+      "conference": "BSky",
+      "record": "18-16",
+      "adj_t": 69.5,
+      "adj_o": 107.16,
+      "adj_d": 107.03,
+      "adj_em": 0.13
+    },
+    {
+      "name": "Montana St.",
+      "conference": "BSky",
+      "record": "18-14",
+      "adj_t": 65.9,
+      "adj_o": 110.95,
+      "adj_d": 107.36,
+      "adj_em": 3.58
+    },
+    {
+      "name": "Morehead St.",
+      "conference": "OVC",
+      "record": "20-13",
+      "adj_t": 65.33,
+      "adj_o": 106.38,
+      "adj_d": 117.65,
+      "adj_em": -11.26
+    },
+    {
+      "name": "Morgan St.",
+      "conference": "MEAC",
+      "record": "14-16",
+      "adj_t": 70.46,
+      "adj_o": 98.83,
+      "adj_d": 121.58,
+      "adj_em": -22.76
+    },
+    {
+      "name": "Mount St. Mary's",
+      "conference": "MAAC",
+      "record": "15-17",
+      "adj_t": 67.8,
+      "adj_o": 99.19,
+      "adj_d": 108.27,
+      "adj_em": -9.08
+    },
+    {
+      "name": "Murray St.",
+      "conference": "MVC",
+      "record": "20-12",
+      "adj_t": 71.79,
+      "adj_o": 115.14,
+      "adj_d": 112.2,
+      "adj_em": 2.93
+    },
+    {
+      "name": "N.C. State",
+      "conference": "ACC",
+      "record": "20-13",
+      "adj_t": 69.09,
+      "adj_o": 124.08,
+      "adj_d": 104.67,
+      "adj_em": 19.41
+    },
+    {
+      "name": "Navy",
+      "conference": "Pat",
+      "record": "26-7",
+      "adj_t": 65.17,
+      "adj_o": 106.47,
+      "adj_d": 105.42,
+      "adj_em": 1.04
+    },
+    {
+      "name": "Nebraska",
+      "conference": "B10",
+      "record": "26-6",
+      "adj_t": 66.82,
+      "adj_o": 117.21,
+      "adj_d": 93.5,
+      "adj_em": 23.71
+    },
+    {
+      "name": "Nebraska Omaha",
+      "conference": "Sum",
+      "record": "16-17",
+      "adj_t": 67.11,
+      "adj_o": 106.08,
+      "adj_d": 112.62,
+      "adj_em": -6.54
+    },
+    {
+      "name": "Nevada",
+      "conference": "MWC",
+      "record": "22-12",
+      "adj_t": 66.05,
+      "adj_o": 114.5,
+      "adj_d": 103.8,
+      "adj_em": 10.7
+    },
+    {
+      "name": "New Hampshire",
+      "conference": "AE",
+      "record": "9-21",
+      "adj_t": 67.39,
+      "adj_o": 95.57,
+      "adj_d": 116.24,
+      "adj_em": -20.66
+    },
+    {
+      "name": "New Haven",
+      "conference": "NEC",
+      "record": "14-17",
+      "adj_t": 63.39,
+      "adj_o": 95.96,
+      "adj_d": 111.55,
+      "adj_em": -15.59
+    },
+    {
+      "name": "New Mexico",
+      "conference": "MWC",
+      "record": "23-10",
+      "adj_t": 69.83,
+      "adj_o": 116.44,
+      "adj_d": 102.13,
+      "adj_em": 14.32
+    },
+    {
+      "name": "New Mexico St.",
+      "conference": "CUSA",
+      "record": "16-16",
+      "adj_t": 66.6,
+      "adj_o": 108.11,
+      "adj_d": 110.23,
+      "adj_em": -2.12
+    },
+    {
+      "name": "New Orleans",
+      "conference": "Slnd",
+      "record": "15-18",
+      "adj_t": 69.76,
+      "adj_o": 108.64,
+      "adj_d": 111.12,
+      "adj_em": -2.48
+    },
+    {
+      "name": "Niagara",
+      "conference": "MAAC",
+      "record": "8-22",
+      "adj_t": 62.23,
+      "adj_o": 99.86,
+      "adj_d": 117.35,
+      "adj_em": -17.49
+    },
+    {
+      "name": "Nicholls St.",
+      "conference": "Slnd",
+      "record": "14-19",
+      "adj_t": 68.25,
+      "adj_o": 104.82,
+      "adj_d": 112.02,
+      "adj_em": -7.19
+    },
+    {
+      "name": "NJIT",
+      "conference": "AE",
+      "record": "16-17",
+      "adj_t": 68.05,
+      "adj_o": 97.3,
+      "adj_d": 112.04,
+      "adj_em": -14.74
+    },
+    {
+      "name": "Norfolk St.",
+      "conference": "MEAC",
+      "record": "15-17",
+      "adj_t": 68.12,
+      "adj_o": 101.18,
+      "adj_d": 118.28,
+      "adj_em": -17.1
+    },
+    {
+      "name": "North Alabama",
+      "conference": "ASun",
+      "record": "9-21",
+      "adj_t": 64.82,
+      "adj_o": 99.89,
+      "adj_d": 117.97,
+      "adj_em": -18.08
+    },
+    {
+      "name": "North Carolina",
+      "conference": "ACC",
+      "record": "24-8",
+      "adj_t": 67.99,
+      "adj_o": 121.41,
+      "adj_d": 100.01,
+      "adj_em": 21.41
+    },
+    {
+      "name": "North Carolina A&T",
+      "conference": "CAA",
+      "record": "11-19",
+      "adj_t": 68.52,
+      "adj_o": 104.37,
+      "adj_d": 117.17,
+      "adj_em": -12.8
+    },
+    {
+      "name": "North Carolina Central",
+      "conference": "MEAC",
+      "record": "14-18",
+      "adj_t": 65.75,
+      "adj_o": 100.18,
+      "adj_d": 122.98,
+      "adj_em": -22.8
+    },
+    {
+      "name": "North Dakota",
+      "conference": "Sum",
+      "record": "18-17",
+      "adj_t": 67.32,
+      "adj_o": 106.69,
+      "adj_d": 115.39,
+      "adj_em": -8.7
+    },
+    {
+      "name": "North Dakota St.",
+      "conference": "Sum",
+      "record": "27-7",
+      "adj_t": 66.36,
+      "adj_o": 111.43,
+      "adj_d": 106.03,
+      "adj_em": 5.4
+    },
+    {
+      "name": "North Florida",
+      "conference": "ASun",
+      "record": "7-25",
+      "adj_t": 70.5,
+      "adj_o": 106.91,
+      "adj_d": 123.76,
+      "adj_em": -16.85
+    },
+    {
+      "name": "North Texas",
+      "conference": "Amer",
+      "record": "19-14",
+      "adj_t": 64.98,
+      "adj_o": 103.12,
+      "adj_d": 101.2,
+      "adj_em": 1.92
+    },
+    {
+      "name": "Northeastern",
+      "conference": "CAA",
+      "record": "7-24",
+      "adj_t": 69.74,
+      "adj_o": 106.91,
+      "adj_d": 118.47,
+      "adj_em": -11.56
+    },
+    {
+      "name": "Northern Arizona",
+      "conference": "BSky",
+      "record": "10-22",
+      "adj_t": 63.79,
+      "adj_o": 105.65,
+      "adj_d": 119.3,
+      "adj_em": -13.65
+    },
+    {
+      "name": "Northern Colorado",
+      "conference": "BSky",
+      "record": "20-12",
+      "adj_t": 68.46,
+      "adj_o": 112.29,
+      "adj_d": 109.81,
+      "adj_em": 2.48
+    },
+    {
+      "name": "Northern Illinois",
+      "conference": "MAC",
+      "record": "9-21",
+      "adj_t": 67.48,
+      "adj_o": 95.71,
+      "adj_d": 113.78,
+      "adj_em": -18.07
+    },
+    {
+      "name": "Northern Iowa",
+      "conference": "MVC",
+      "record": "23-12",
+      "adj_t": 62.19,
+      "adj_o": 109.77,
+      "adj_d": 98.57,
+      "adj_em": 11.2
+    },
+    {
+      "name": "Northern Kentucky",
+      "conference": "Horz",
+      "record": "20-14",
+      "adj_t": 70,
+      "adj_o": 108.94,
+      "adj_d": 110.15,
+      "adj_em": -1.21
+    },
+    {
+      "name": "Northwestern",
+      "conference": "B10",
+      "record": "15-19",
+      "adj_t": 65.11,
+      "adj_o": 116.45,
+      "adj_d": 103.75,
+      "adj_em": 12.71
+    },
+    {
+      "name": "Northwestern St.",
+      "conference": "Slnd",
+      "record": "10-22",
+      "adj_t": 64.78,
+      "adj_o": 100.65,
+      "adj_d": 112.7,
+      "adj_em": -12.05
+    },
+    {
+      "name": "Notre Dame",
+      "conference": "ACC",
+      "record": "13-18",
+      "adj_t": 66.04,
+      "adj_o": 115.01,
+      "adj_d": 107.38,
+      "adj_em": 7.64
+    },
+    {
+      "name": "Oakland",
+      "conference": "Horz",
+      "record": "16-16",
+      "adj_t": 69.99,
+      "adj_o": 113.79,
+      "adj_d": 115,
+      "adj_em": -1.2
+    },
+    {
+      "name": "Ohio",
+      "conference": "MAC",
+      "record": "15-17",
+      "adj_t": 68.87,
+      "adj_o": 108.28,
+      "adj_d": 113.17,
+      "adj_em": -4.89
+    },
+    {
+      "name": "Ohio St.",
+      "conference": "B10",
+      "record": "21-12",
+      "adj_t": 66.16,
+      "adj_o": 125.21,
+      "adj_d": 101.59,
+      "adj_em": 23.62
+    },
+    {
+      "name": "Oklahoma",
+      "conference": "SEC",
+      "record": "19-15",
+      "adj_t": 66.15,
+      "adj_o": 125.2,
+      "adj_d": 105.86,
+      "adj_em": 19.34
+    },
+    {
+      "name": "Oklahoma St.",
+      "conference": "B12",
+      "record": "19-14",
+      "adj_t": 72.18,
+      "adj_o": 118.55,
+      "adj_d": 107.25,
+      "adj_em": 11.3
+    },
+    {
+      "name": "Old Dominion",
+      "conference": "SB",
+      "record": "12-21",
+      "adj_t": 68.89,
+      "adj_o": 106.2,
+      "adj_d": 112.45,
+      "adj_em": -6.25
+    },
+    {
+      "name": "Oral Roberts",
+      "conference": "Sum",
+      "record": "10-23",
+      "adj_t": 67.73,
+      "adj_o": 102.34,
+      "adj_d": 113.98,
+      "adj_em": -11.64
+    },
+    {
+      "name": "Oregon",
+      "conference": "B10",
+      "record": "12-20",
+      "adj_t": 65.93,
+      "adj_o": 111.8,
+      "adj_d": 103.52,
+      "adj_em": 8.28
+    },
+    {
+      "name": "Oregon St.",
+      "conference": "WCC",
+      "record": "17-16",
+      "adj_t": 65.23,
+      "adj_o": 109.4,
+      "adj_d": 109,
+      "adj_em": 0.4
+    },
+    {
+      "name": "Pacific",
+      "conference": "WCC",
+      "record": "18-15",
+      "adj_t": 64.4,
+      "adj_o": 110.45,
+      "adj_d": 104.08,
+      "adj_em": 6.38
+    },
+    {
+      "name": "Penn",
+      "conference": "Ivy",
+      "record": "18-11",
+      "adj_t": 69.02,
+      "adj_o": 106.56,
+      "adj_d": 105.39,
+      "adj_em": 1.16
+    },
+    {
+      "name": "Penn St.",
+      "conference": "B10",
+      "record": "12-20",
+      "adj_t": 67.52,
+      "adj_o": 113.76,
+      "adj_d": 111.73,
+      "adj_em": 2.03
+    },
+    {
+      "name": "Pepperdine",
+      "conference": "WCC",
+      "record": "9-23",
+      "adj_t": 68.39,
+      "adj_o": 105.67,
+      "adj_d": 113.26,
+      "adj_em": -7.59
+    },
+    {
+      "name": "Pittsburgh",
+      "conference": "ACC",
+      "record": "13-20",
+      "adj_t": 63.65,
+      "adj_o": 112.64,
+      "adj_d": 105.56,
+      "adj_em": 7.08
+    },
+    {
+      "name": "Portland",
+      "conference": "WCC",
+      "record": "15-19",
+      "adj_t": 68.5,
+      "adj_o": 106.25,
+      "adj_d": 108.11,
+      "adj_em": -1.86
+    },
+    {
+      "name": "Portland St.",
+      "conference": "BSky",
+      "record": "20-11",
+      "adj_t": 67.78,
+      "adj_o": 103.06,
+      "adj_d": 102.62,
+      "adj_em": 0.44
+    },
+    {
+      "name": "Prairie View A&M",
+      "conference": "SWAC",
+      "record": "18-17",
+      "adj_t": 70.87,
+      "adj_o": 101.45,
+      "adj_d": 111.36,
+      "adj_em": -9.91
+    },
+    {
+      "name": "Presbyterian",
+      "conference": "BSth",
+      "record": "15-18",
+      "adj_t": 64.2,
+      "adj_o": 102.41,
+      "adj_d": 112.52,
+      "adj_em": -10.11
+    },
+    {
+      "name": "Princeton",
+      "conference": "Ivy",
+      "record": "9-20",
+      "adj_t": 63.86,
+      "adj_o": 104.98,
+      "adj_d": 112.38,
+      "adj_em": -7.39
+    },
+    {
+      "name": "Providence",
+      "conference": "BE",
+      "record": "15-18",
+      "adj_t": 71.33,
+      "adj_o": 120.86,
+      "adj_d": 109.17,
+      "adj_em": 11.7
+    },
+    {
+      "name": "Purdue",
+      "conference": "B10",
+      "record": "27-8",
+      "adj_t": 64.44,
+      "adj_o": 133.31,
+      "adj_d": 100.26,
+      "adj_em": 33.06
+    },
+    {
+      "name": "Purdue Fort Wayne",
+      "conference": "Horz",
+      "record": "17-15",
+      "adj_t": 67.71,
+      "adj_o": 104.95,
+      "adj_d": 113.35,
+      "adj_em": -8.4
+    },
+    {
+      "name": "Queens",
+      "conference": "ASun",
+      "record": "21-13",
+      "adj_t": 69.5,
+      "adj_o": 114.68,
+      "adj_d": 117.11,
+      "adj_em": -2.43
+    },
+    {
+      "name": "Quinnipiac",
+      "conference": "MAAC",
+      "record": "19-13",
+      "adj_t": 70.1,
+      "adj_o": 103.72,
+      "adj_d": 107.9,
+      "adj_em": -4.18
+    },
+    {
+      "name": "Radford",
+      "conference": "BSth",
+      "record": "16-16",
+      "adj_t": 70.68,
+      "adj_o": 106.36,
+      "adj_d": 113.22,
+      "adj_em": -6.86
+    },
+    {
+      "name": "Rhode Island",
+      "conference": "A10",
+      "record": "16-16",
+      "adj_t": 65.84,
+      "adj_o": 104.18,
+      "adj_d": 103.3,
+      "adj_em": 0.88
+    },
+    {
+      "name": "Rice",
+      "conference": "Amer",
+      "record": "13-18",
+      "adj_t": 65.62,
+      "adj_o": 108.99,
+      "adj_d": 112.55,
+      "adj_em": -3.57
+    },
+    {
+      "name": "Richmond",
+      "conference": "A10",
+      "record": "15-17",
+      "adj_t": 67.57,
+      "adj_o": 110.44,
+      "adj_d": 110.5,
+      "adj_em": -0.05
+    },
+    {
+      "name": "Rider",
+      "conference": "MAAC",
+      "record": "4-25",
+      "adj_t": 65.67,
+      "adj_o": 96.31,
+      "adj_d": 120.59,
+      "adj_em": -24.28
+    },
+    {
+      "name": "Robert Morris",
+      "conference": "Horz",
+      "record": "22-11",
+      "adj_t": 64.54,
+      "adj_o": 109.96,
+      "adj_d": 108.9,
+      "adj_em": 1.06
+    },
+    {
+      "name": "Rutgers",
+      "conference": "B10",
+      "record": "14-19",
+      "adj_t": 66.69,
+      "adj_o": 110.92,
+      "adj_d": 105.91,
+      "adj_em": 5.01
+    },
+    {
+      "name": "Sacramento St.",
+      "conference": "BSky",
+      "record": "10-21",
+      "adj_t": 71.66,
+      "adj_o": 105.49,
+      "adj_d": 114.06,
+      "adj_em": -8.57
+    },
+    {
+      "name": "Sacred Heart",
+      "conference": "MAAC",
+      "record": "14-19",
+      "adj_t": 68.4,
+      "adj_o": 106.8,
+      "adj_d": 118.56,
+      "adj_em": -11.76
+    },
+    {
+      "name": "Saint Francis",
+      "conference": "NEC",
+      "record": "7-24",
+      "adj_t": 69.99,
+      "adj_o": 100.55,
+      "adj_d": 122.46,
+      "adj_em": -21.91
+    },
+    {
+      "name": "Saint Joseph's",
+      "conference": "A10",
+      "record": "22-11",
+      "adj_t": 67.96,
+      "adj_o": 108.39,
+      "adj_d": 101.33,
+      "adj_em": 7.05
+    },
+    {
+      "name": "Saint Louis",
+      "conference": "A10",
+      "record": "28-5",
+      "adj_t": 71.01,
+      "adj_o": 119.51,
+      "adj_d": 102.25,
+      "adj_em": 17.26
+    },
+    {
+      "name": "Saint Mary's",
+      "conference": "WCC",
+      "record": "27-5",
+      "adj_t": 65.3,
+      "adj_o": 119.36,
+      "adj_d": 97.55,
+      "adj_em": 21.82
+    },
+    {
+      "name": "Saint Peter's",
+      "conference": "MAAC",
+      "record": "17-12",
+      "adj_t": 65.46,
+      "adj_o": 103.22,
+      "adj_d": 109.79,
+      "adj_em": -6.57
+    },
+    {
+      "name": "Sam Houston St.",
+      "conference": "CUSA",
+      "record": "22-11",
+      "adj_t": 70.04,
+      "adj_o": 113.9,
+      "adj_d": 107.23,
+      "adj_em": 6.67
+    },
+    {
+      "name": "Samford",
+      "conference": "SC",
+      "record": "18-14",
+      "adj_t": 67.34,
+      "adj_o": 107.77,
+      "adj_d": 113.85,
+      "adj_em": -6.08
+    },
+    {
+      "name": "San Diego",
+      "conference": "WCC",
+      "record": "12-21",
+      "adj_t": 68.14,
+      "adj_o": 108.48,
+      "adj_d": 112.28,
+      "adj_em": -3.8
+    },
+    {
+      "name": "San Diego St.",
+      "conference": "MWC",
+      "record": "22-11",
+      "adj_t": 68.6,
+      "adj_o": 112.21,
+      "adj_d": 96.15,
+      "adj_em": 16.06
+    },
+    {
+      "name": "San Francisco",
+      "conference": "WCC",
+      "record": "17-16",
+      "adj_t": 65.89,
+      "adj_o": 113.27,
+      "adj_d": 109.31,
+      "adj_em": 3.96
+    },
+    {
+      "name": "San Jose St.",
+      "conference": "MWC",
+      "record": "9-24",
+      "adj_t": 65.01,
+      "adj_o": 112.71,
+      "adj_d": 116.56,
+      "adj_em": -3.85
+    },
+    {
+      "name": "Santa Clara",
+      "conference": "WCC",
+      "record": "26-8",
+      "adj_t": 69.26,
+      "adj_o": 125.01,
+      "adj_d": 103.75,
+      "adj_em": 21.26
+    },
+    {
+      "name": "Seattle",
+      "conference": "WCC",
+      "record": "20-13",
+      "adj_t": 67.73,
+      "adj_o": 102.62,
+      "adj_d": 96.45,
+      "adj_em": 6.16
+    },
+    {
+      "name": "Seton Hall",
+      "conference": "BE",
+      "record": "21-12",
+      "adj_t": 65.16,
+      "adj_o": 108.76,
+      "adj_d": 96.33,
+      "adj_em": 12.43
+    },
+    {
+      "name": "Siena",
+      "conference": "MAAC",
+      "record": "23-11",
+      "adj_t": 64.63,
+      "adj_o": 107.2,
+      "adj_d": 108.91,
+      "adj_em": -1.7
+    },
+    {
+      "name": "SIU Edwardsville",
+      "conference": "OVC",
+      "record": "19-13",
+      "adj_t": 64.42,
+      "adj_o": 98.88,
+      "adj_d": 106.35,
+      "adj_em": -7.48
+    },
+    {
+      "name": "SMU",
+      "conference": "ACC",
+      "record": "20-13",
+      "adj_t": 68.62,
+      "adj_o": 123.01,
+      "adj_d": 104.99,
+      "adj_em": 18.02
+    },
+    {
+      "name": "South Alabama",
+      "conference": "SB",
+      "record": "21-11",
+      "adj_t": 64.62,
+      "adj_o": 107.14,
+      "adj_d": 109.29,
+      "adj_em": -2.15
+    },
+    {
+      "name": "South Carolina",
+      "conference": "SEC",
+      "record": "13-19",
+      "adj_t": 66.3,
+      "adj_o": 111.77,
+      "adj_d": 104.63,
+      "adj_em": 7.13
+    },
+    {
+      "name": "South Carolina St.",
+      "conference": "MEAC",
+      "record": "10-22",
+      "adj_t": 68.85,
+      "adj_o": 95.41,
+      "adj_d": 117.39,
+      "adj_em": -21.97
+    },
+    {
+      "name": "South Dakota",
+      "conference": "Sum",
+      "record": "16-16",
+      "adj_t": 69.96,
+      "adj_o": 104.34,
+      "adj_d": 113.82,
+      "adj_em": -9.48
+    },
+    {
+      "name": "South Dakota St.",
+      "conference": "Sum",
+      "record": "14-18",
+      "adj_t": 67.02,
+      "adj_o": 107.46,
+      "adj_d": 111.88,
+      "adj_em": -4.42
+    },
+    {
+      "name": "South Florida",
+      "conference": "Amer",
+      "record": "25-8",
+      "adj_t": 71.4,
+      "adj_o": 116.78,
+      "adj_d": 101.38,
+      "adj_em": 15.39
+    },
+    {
+      "name": "Southeast Missouri St.",
+      "conference": "OVC",
+      "record": "20-13",
+      "adj_t": 68.93,
+      "adj_o": 101.08,
+      "adj_d": 108.17,
+      "adj_em": -7.08
+    },
+    {
+      "name": "Southeastern Louisiana",
+      "conference": "Slnd",
+      "record": "9-22",
+      "adj_t": 65.43,
+      "adj_o": 99.38,
+      "adj_d": 110.18,
+      "adj_em": -10.8
+    },
+    {
+      "name": "Southern",
+      "conference": "SWAC",
+      "record": "17-17",
+      "adj_t": 69.8,
+      "adj_o": 106.1,
+      "adj_d": 113.43,
+      "adj_em": -7.33
+    },
+    {
+      "name": "Southern Illinois",
+      "conference": "MVC",
+      "record": "16-16",
+      "adj_t": 68.99,
+      "adj_o": 102.49,
+      "adj_d": 99.34,
+      "adj_em": 3.15
+    },
+    {
+      "name": "Southern Indiana",
+      "conference": "OVC",
+      "record": "7-23",
+      "adj_t": 67.72,
+      "adj_o": 95.95,
+      "adj_d": 114.59,
+      "adj_em": -18.64
+    },
+    {
+      "name": "Southern Miss",
+      "conference": "SB",
+      "record": "19-16",
+      "adj_t": 69.09,
+      "adj_o": 104.62,
+      "adj_d": 108.83,
+      "adj_em": -4.21
+    },
+    {
+      "name": "Southern Utah",
+      "conference": "WAC",
+      "record": "10-22",
+      "adj_t": 70.37,
+      "adj_o": 106.35,
+      "adj_d": 114.5,
+      "adj_em": -8.15
+    },
+    {
+      "name": "St. Bonaventure",
+      "conference": "A10",
+      "record": "17-17",
+      "adj_t": 67.14,
+      "adj_o": 113.14,
+      "adj_d": 112.34,
+      "adj_em": 0.8
+    },
+    {
+      "name": "St. John's",
+      "conference": "BE",
+      "record": "28-6",
+      "adj_t": 69.6,
+      "adj_o": 119.8,
+      "adj_d": 94.09,
+      "adj_em": 25.71
+    },
+    {
+      "name": "St. Thomas",
+      "conference": "Sum",
+      "record": "24-9",
+      "adj_t": 68.39,
+      "adj_o": 113.94,
+      "adj_d": 107.91,
+      "adj_em": 6.03
+    },
+    {
+      "name": "Stanford",
+      "conference": "ACC",
+      "record": "20-12",
+      "adj_t": 67,
+      "adj_o": 117.07,
+      "adj_d": 103.68,
+      "adj_em": 13.39
+    },
+    {
+      "name": "Stephen F. Austin",
+      "conference": "Slnd",
+      "record": "28-5",
+      "adj_t": 65.71,
+      "adj_o": 112.52,
+      "adj_d": 104.06,
+      "adj_em": 8.46
+    },
+    {
+      "name": "Stetson",
+      "conference": "ASun",
+      "record": "12-21",
+      "adj_t": 66.76,
+      "adj_o": 105.14,
+      "adj_d": 117.87,
+      "adj_em": -12.73
+    },
+    {
+      "name": "Stonehill",
+      "conference": "NEC",
+      "record": "12-21",
+      "adj_t": 66.38,
+      "adj_o": 91.99,
+      "adj_d": 108.4,
+      "adj_em": -16.41
+    },
+    {
+      "name": "Stony Brook",
+      "conference": "CAA",
+      "record": "17-15",
+      "adj_t": 66.17,
+      "adj_o": 105.21,
+      "adj_d": 110.19,
+      "adj_em": -4.98
+    },
+    {
+      "name": "Syracuse",
+      "conference": "ACC",
+      "record": "15-17",
+      "adj_t": 67.38,
+      "adj_o": 115.15,
+      "adj_d": 104.69,
+      "adj_em": 10.46
+    },
+    {
+      "name": "Tarleton St.",
+      "conference": "WAC",
+      "record": "14-18",
+      "adj_t": 69.51,
+      "adj_o": 103.33,
+      "adj_d": 107.79,
+      "adj_em": -4.45
+    },
+    {
+      "name": "TCU",
+      "conference": "B12",
+      "record": "22-11",
+      "adj_t": 67.58,
+      "adj_o": 114.85,
+      "adj_d": 99.64,
+      "adj_em": 15.21
+    },
+    {
+      "name": "Temple",
+      "conference": "Amer",
+      "record": "16-16",
+      "adj_t": 64.9,
+      "adj_o": 111.72,
+      "adj_d": 110.15,
+      "adj_em": 1.57
+    },
+    {
+      "name": "Tennessee",
+      "conference": "SEC",
+      "record": "22-11",
+      "adj_t": 65.22,
+      "adj_o": 121.49,
+      "adj_d": 95.52,
+      "adj_em": 25.97
+    },
+    {
+      "name": "Tennessee Martin",
+      "conference": "OVC",
+      "record": "22-11",
+      "adj_t": 64.3,
+      "adj_o": 97.97,
+      "adj_d": 105.53,
+      "adj_em": -7.57
+    },
+    {
+      "name": "Tennessee St.",
+      "conference": "OVC",
+      "record": "23-9",
+      "adj_t": 70.14,
+      "adj_o": 107.79,
+      "adj_d": 111.86,
+      "adj_em": -4.07
+    },
+    {
+      "name": "Tennessee Tech",
+      "conference": "OVC",
+      "record": "13-18",
+      "adj_t": 67.04,
+      "adj_o": 101.8,
+      "adj_d": 117.21,
+      "adj_em": -15.42
+    },
+    {
+      "name": "Texas",
+      "conference": "SEC",
+      "record": "18-14",
+      "adj_t": 67.1,
+      "adj_o": 124.03,
+      "adj_d": 106.4,
+      "adj_em": 17.63
+    },
+    {
+      "name": "Texas A&M",
+      "conference": "SEC",
+      "record": "21-11",
+      "adj_t": 71.02,
+      "adj_o": 119.86,
+      "adj_d": 101.43,
+      "adj_em": 18.43
+    },
+    {
+      "name": "Texas A&M Corpus Chris",
+      "conference": "Slnd",
+      "record": "18-15",
+      "adj_t": 65.93,
+      "adj_o": 104.05,
+      "adj_d": 105.28,
+      "adj_em": -1.22
+    },
+    {
+      "name": "Texas Southern",
+      "conference": "SWAC",
+      "record": "12-18",
+      "adj_t": 68.67,
+      "adj_o": 102.07,
+      "adj_d": 114.27,
+      "adj_em": -12.21
+    },
+    {
+      "name": "Texas St.",
+      "conference": "SB",
+      "record": "19-13",
+      "adj_t": 66.15,
+      "adj_o": 104.44,
+      "adj_d": 109.6,
+      "adj_em": -5.16
+    },
+    {
+      "name": "Texas Tech",
+      "conference": "B12",
+      "record": "22-10",
+      "adj_t": 66.41,
+      "adj_o": 126.3,
+      "adj_d": 98.81,
+      "adj_em": 27.49
+    },
+    {
+      "name": "The Citadel",
+      "conference": "SC",
+      "record": "11-22",
+      "adj_t": 64.18,
+      "adj_o": 100,
+      "adj_d": 120.64,
+      "adj_em": -20.64
+    },
+    {
+      "name": "Toledo",
+      "conference": "MAC",
+      "record": "19-15",
+      "adj_t": 67.85,
+      "adj_o": 114.56,
+      "adj_d": 111.18,
+      "adj_em": 3.38
+    },
+    {
+      "name": "Towson",
+      "conference": "CAA",
+      "record": "19-15",
+      "adj_t": 63.4,
+      "adj_o": 104.12,
+      "adj_d": 104.87,
+      "adj_em": -0.75
+    },
+    {
+      "name": "Troy",
+      "conference": "SB",
+      "record": "22-11",
+      "adj_t": 65.08,
+      "adj_o": 110.68,
+      "adj_d": 109.02,
+      "adj_em": 1.67
+    },
+    {
+      "name": "Tulane",
+      "conference": "Amer",
+      "record": "18-15",
+      "adj_t": 66.86,
+      "adj_o": 107.49,
+      "adj_d": 110.07,
+      "adj_em": -2.58
+    },
+    {
+      "name": "Tulsa",
+      "conference": "Amer",
+      "record": "26-7",
+      "adj_t": 67.78,
+      "adj_o": 120.95,
+      "adj_d": 108.26,
+      "adj_em": 12.69
+    },
+    {
+      "name": "UAB",
+      "conference": "Amer",
+      "record": "20-12",
+      "adj_t": 69.31,
+      "adj_o": 108.52,
+      "adj_d": 106.01,
+      "adj_em": 2.5
+    },
+    {
+      "name": "UC Davis",
+      "conference": "BW",
+      "record": "19-14",
+      "adj_t": 68.87,
+      "adj_o": 106.95,
+      "adj_d": 106.67,
+      "adj_em": 0.28
+    },
+    {
+      "name": "UC Irvine",
+      "conference": "BW",
+      "record": "23-11",
+      "adj_t": 68.16,
+      "adj_o": 104.48,
+      "adj_d": 98.65,
+      "adj_em": 5.83
+    },
+    {
+      "name": "UC Riverside",
+      "conference": "BW",
+      "record": "10-22",
+      "adj_t": 68.47,
+      "adj_o": 103.62,
+      "adj_d": 110.67,
+      "adj_em": -7.05
+    },
+    {
+      "name": "UC San Diego",
+      "conference": "BW",
+      "record": "23-11",
+      "adj_t": 67.2,
+      "adj_o": 106.25,
+      "adj_d": 102.23,
+      "adj_em": 4.01
+    },
+    {
+      "name": "UC Santa Barbara",
+      "conference": "BW",
+      "record": "18-14",
+      "adj_t": 64.33,
+      "adj_o": 113.64,
+      "adj_d": 109.97,
+      "adj_em": 3.67
+    },
+    {
+      "name": "UCF",
+      "conference": "B12",
+      "record": "21-11",
+      "adj_t": 69.12,
+      "adj_o": 120,
+      "adj_d": 105.69,
+      "adj_em": 14.31
+    },
+    {
+      "name": "UCLA",
+      "conference": "B10",
+      "record": "23-11",
+      "adj_t": 64.69,
+      "adj_o": 124.56,
+      "adj_d": 101.78,
+      "adj_em": 22.77
+    },
+    {
+      "name": "UMass Lowell",
+      "conference": "AE",
+      "record": "15-18",
+      "adj_t": 69.32,
+      "adj_o": 102.68,
+      "adj_d": 117.14,
+      "adj_em": -14.46
+    },
+    {
+      "name": "UMBC",
+      "conference": "AE",
+      "record": "24-8",
+      "adj_t": 66.01,
+      "adj_o": 107.58,
+      "adj_d": 109.23,
+      "adj_em": -1.65
+    },
+    {
+      "name": "UMKC",
+      "conference": "Sum",
+      "record": "4-27",
+      "adj_t": 69.73,
+      "adj_o": 93.2,
+      "adj_d": 117.5,
+      "adj_em": -24.29
+    },
+    {
+      "name": "UNC Asheville",
+      "conference": "BSth",
+      "record": "15-17",
+      "adj_t": 64.81,
+      "adj_o": 103.75,
+      "adj_d": 111.33,
+      "adj_em": -7.58
+    },
+    {
+      "name": "UNC Greensboro",
+      "conference": "SC",
+      "record": "15-19",
+      "adj_t": 67.67,
+      "adj_o": 107.87,
+      "adj_d": 119.03,
+      "adj_em": -11.16
+    },
+    {
+      "name": "UNC Wilmington",
+      "conference": "CAA",
+      "record": "26-6",
+      "adj_t": 64.9,
+      "adj_o": 110.65,
+      "adj_d": 106.82,
+      "adj_em": 3.84
+    },
+    {
+      "name": "UNLV",
+      "conference": "MWC",
+      "record": "17-16",
+      "adj_t": 69.87,
+      "adj_o": 115.51,
+      "adj_d": 109.15,
+      "adj_em": 6.36
+    },
+    {
+      "name": "USC",
+      "conference": "B10",
+      "record": "18-14",
+      "adj_t": 70.72,
+      "adj_o": 113.1,
+      "adj_d": 101.32,
+      "adj_em": 11.77
+    },
+    {
+      "name": "USC Upstate",
+      "conference": "BSth",
+      "record": "13-19",
+      "adj_t": 67.58,
+      "adj_o": 99.12,
+      "adj_d": 110.81,
+      "adj_em": -11.69
+    },
+    {
+      "name": "UT Arlington",
+      "conference": "WAC",
+      "record": "18-14",
+      "adj_t": 64.81,
+      "adj_o": 101.36,
+      "adj_d": 102.62,
+      "adj_em": -1.26
+    },
+    {
+      "name": "UT Rio Grande Valley",
+      "conference": "Slnd",
+      "record": "19-14",
+      "adj_t": 66.4,
+      "adj_o": 111.31,
+      "adj_d": 106.52,
+      "adj_em": 4.79
+    },
+    {
+      "name": "Utah",
+      "conference": "B12",
+      "record": "10-22",
+      "adj_t": 66.3,
+      "adj_o": 114.85,
+      "adj_d": 109.38,
+      "adj_em": 5.47
+    },
+    {
+      "name": "Utah St.",
+      "conference": "MWC",
+      "record": "28-6",
+      "adj_t": 67.55,
+      "adj_o": 123.03,
+      "adj_d": 102.09,
+      "adj_em": 20.94
+    },
+    {
+      "name": "Utah Tech",
+      "conference": "WAC",
+      "record": "19-15",
+      "adj_t": 66.44,
+      "adj_o": 111.24,
+      "adj_d": 112.71,
+      "adj_em": -1.48
+    },
+    {
+      "name": "Utah Valley",
+      "conference": "WAC",
+      "record": "25-8",
+      "adj_t": 68.63,
+      "adj_o": 112.34,
+      "adj_d": 103.6,
+      "adj_em": 8.74
+    },
+    {
+      "name": "UTEP",
+      "conference": "CUSA",
+      "record": "11-20",
+      "adj_t": 65.24,
+      "adj_o": 101.13,
+      "adj_d": 109.67,
+      "adj_em": -8.53
+    },
+    {
+      "name": "UTSA",
+      "conference": "Amer",
+      "record": "5-25",
+      "adj_t": 68.59,
+      "adj_o": 100.52,
+      "adj_d": 118.13,
+      "adj_em": -17.6
+    },
+    {
+      "name": "Valparaiso",
+      "conference": "MVC",
+      "record": "18-15",
+      "adj_t": 65.11,
+      "adj_o": 107.55,
+      "adj_d": 107.24,
+      "adj_em": 0.32
+    },
+    {
+      "name": "Vanderbilt",
+      "conference": "SEC",
+      "record": "26-8",
+      "adj_t": 68.98,
+      "adj_o": 127.47,
+      "adj_d": 99.36,
+      "adj_em": 28.11
+    },
+    {
+      "name": "VCU",
+      "conference": "A10",
+      "record": "27-7",
+      "adj_t": 68.68,
+      "adj_o": 119.28,
+      "adj_d": 103.04,
+      "adj_em": 16.24
+    },
+    {
+      "name": "Vermont",
+      "conference": "AE",
+      "record": "22-12",
+      "adj_t": 64.7,
+      "adj_o": 104.83,
+      "adj_d": 112.46,
+      "adj_em": -7.63
+    },
+    {
+      "name": "Villanova",
+      "conference": "BE",
+      "record": "24-8",
+      "adj_t": 64.95,
+      "adj_o": 119.6,
+      "adj_d": 100.54,
+      "adj_em": 19.05
+    },
+    {
+      "name": "Virginia",
+      "conference": "ACC",
+      "record": "29-5",
+      "adj_t": 65.58,
+      "adj_o": 122.26,
+      "adj_d": 95.84,
+      "adj_em": 26.42
+    },
+    {
+      "name": "Virginia Tech",
+      "conference": "ACC",
+      "record": "19-13",
+      "adj_t": 67.19,
+      "adj_o": 117.62,
+      "adj_d": 103.12,
+      "adj_em": 14.49
+    },
+    {
+      "name": "VMI",
+      "conference": "SC",
+      "record": "6-26",
+      "adj_t": 66.83,
+      "adj_o": 98.75,
+      "adj_d": 124.51,
+      "adj_em": -25.76
+    },
+    {
+      "name": "Wagner",
+      "conference": "NEC",
+      "record": "14-17",
+      "adj_t": 65.48,
+      "adj_o": 101.99,
+      "adj_d": 115.1,
+      "adj_em": -13.11
+    },
+    {
+      "name": "Wake Forest",
+      "conference": "ACC",
+      "record": "17-16",
+      "adj_t": 68.29,
+      "adj_o": 117.88,
+      "adj_d": 105.64,
+      "adj_em": 12.24
+    },
+    {
+      "name": "Washington",
+      "conference": "B10",
+      "record": "16-17",
+      "adj_t": 67.06,
+      "adj_o": 116.77,
+      "adj_d": 102.22,
+      "adj_em": 14.55
+    },
+    {
+      "name": "Washington St.",
+      "conference": "WCC",
+      "record": "12-20",
+      "adj_t": 67.88,
+      "adj_o": 114.32,
+      "adj_d": 110.45,
+      "adj_em": 3.87
+    },
+    {
+      "name": "Weber St.",
+      "conference": "BSky",
+      "record": "16-16",
+      "adj_t": 68.54,
+      "adj_o": 111.07,
+      "adj_d": 113.81,
+      "adj_em": -2.74
+    },
+    {
+      "name": "West Georgia",
+      "conference": "ASun",
+      "record": "15-17",
+      "adj_t": 69.06,
+      "adj_o": 102.14,
+      "adj_d": 113.19,
+      "adj_em": -11.06
+    },
+    {
+      "name": "West Virginia",
+      "conference": "B12",
+      "record": "18-14",
+      "adj_t": 62.46,
+      "adj_o": 108.5,
+      "adj_d": 96.6,
+      "adj_em": 11.9
+    },
+    {
+      "name": "Western Carolina",
+      "conference": "SC",
+      "record": "15-16",
+      "adj_t": 67.9,
+      "adj_o": 109.36,
+      "adj_d": 113.97,
+      "adj_em": -4.62
+    },
+    {
+      "name": "Western Illinois",
+      "conference": "OVC",
+      "record": "5-26",
+      "adj_t": 66.48,
+      "adj_o": 92.84,
+      "adj_d": 123.4,
+      "adj_em": -30.56
+    },
+    {
+      "name": "Western Kentucky",
+      "conference": "CUSA",
+      "record": "18-14",
+      "adj_t": 69.9,
+      "adj_o": 108.07,
+      "adj_d": 108.21,
+      "adj_em": -0.14
+    },
+    {
+      "name": "Western Michigan",
+      "conference": "MAC",
+      "record": "10-21",
+      "adj_t": 67.8,
+      "adj_o": 107.13,
+      "adj_d": 117.47,
+      "adj_em": -10.35
+    },
+    {
+      "name": "Wichita St.",
+      "conference": "Amer",
+      "record": "22-11",
+      "adj_t": 66.24,
+      "adj_o": 111.32,
+      "adj_d": 102.02,
+      "adj_em": 9.3
+    },
+    {
+      "name": "William & Mary",
+      "conference": "CAA",
+      "record": "20-12",
+      "adj_t": 72.64,
+      "adj_o": 110.39,
+      "adj_d": 109.98,
+      "adj_em": 0.41
+    },
+    {
+      "name": "Winthrop",
+      "conference": "BSth",
+      "record": "23-11",
+      "adj_t": 69.92,
+      "adj_o": 110.38,
+      "adj_d": 111.02,
+      "adj_em": -0.64
+    },
+    {
+      "name": "Wisconsin",
+      "conference": "B10",
+      "record": "24-10",
+      "adj_t": 68.69,
+      "adj_o": 127.18,
+      "adj_d": 101.65,
+      "adj_em": 25.54
+    },
+    {
+      "name": "Wofford",
+      "conference": "SC",
+      "record": "19-13",
+      "adj_t": 67.84,
+      "adj_o": 108.12,
+      "adj_d": 117.04,
+      "adj_em": -8.92
+    },
+    {
+      "name": "Wright St.",
+      "conference": "Horz",
+      "record": "23-11",
+      "adj_t": 66.98,
+      "adj_o": 112.36,
+      "adj_d": 109.02,
+      "adj_em": 3.34
+    },
+    {
+      "name": "Wyoming",
+      "conference": "MWC",
+      "record": "18-14",
+      "adj_t": 66.05,
+      "adj_o": 115.1,
+      "adj_d": 107.38,
+      "adj_em": 7.72
+    },
+    {
+      "name": "Xavier",
+      "conference": "BE",
+      "record": "15-18",
+      "adj_t": 70.31,
+      "adj_o": 117.26,
+      "adj_d": 109.29,
+      "adj_em": 7.97
+    },
+    {
+      "name": "Yale",
+      "conference": "Ivy",
+      "record": "24-6",
+      "adj_t": 64.66,
+      "adj_o": 118.86,
+      "adj_d": 110.43,
+      "adj_em": 8.43
+    },
+    {
+      "name": "Youngstown St.",
+      "conference": "Horz",
+      "record": "15-17",
+      "adj_t": 67.25,
+      "adj_o": 106.34,
+      "adj_d": 108.29,
+      "adj_em": -1.95
+    }
+  ]
+}
