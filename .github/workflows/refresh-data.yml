@@ -1,6 +1,12 @@
 name: Refresh Torvik ratings
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch_data.py'
+      - 'tests/test_fetch_data.py'
+      - '.github/workflows/refresh-data.yml'
   workflow_dispatch:
     inputs:
       year:
