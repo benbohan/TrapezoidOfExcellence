@@ -1,0 +1,44 @@
+name: Refresh Torvik ratings
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: Season end year (2026 for 2025-26; 2027 for 2026-27)
+        required: true
+        default: '2026'
+        type: string
+  schedule:
+    # Once daily at 13:17 UTC. Change the year below when the new season begins.
+    - cron: '17 13 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -v
+      - name: Download and process Torvik ratings
+        env:
+          DATA_YEAR: ${{ inputs.year || '2026' }}
+        run: python scripts/fetch_data.py --year "$DATA_YEAR"
+      - name: Commit refreshed JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/teams.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "data: refresh Torvik ratings"
+            git push
+          fi
